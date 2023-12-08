@@ -1,4 +1,4 @@
-FROM openjdk:1.8
+FROM openjdk:8
 EXPOSE 8089
 ADD /target/eventsProject-1.0.0.jar eventsProject
 ENTRYPOINT ["java", "-jar","eventsProject"]
